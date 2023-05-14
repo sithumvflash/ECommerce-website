@@ -1,1 +1,113 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   font-family: 'Lato', sans-serif; 
+   padding: 0%;
+   margin: 0%;
+}
+
+nav{
+   background-color: rgba(0, 0, 0, 0.795);
+   color: white;
+   padding: 10px 30px;
+}
+
+.navTop{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+
+.search{
+   display: flex;
+   align-items: center;
+   background-color: rgb(139, 133, 133);
+   padding: 10px 10px;
+   border-radius: 10px;
+}
+
+.searchInput{
+   border: none;
+   background-color: transparent;
+}
+
+.searchInput::placeholder{
+   color: lightgrey;
+}
+
+.limitedOffer{
+   font-size: 20px;
+   border-bottom: 2px solid green;
+   cursor: pointer;
+}
+
+.navBottom{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menuItem{
+   margin-right: 50px;
+   cursor: pointer;
+   color: lightgray;
+   font-weight: 400;
+}
+
+.slider{
+   background: url(https://unsplash.com/photos/4RNvfpWOcak);
+   overflow: hidden; 
+}
+
+.sliderWrapper{
+   display: flex;
+   width: 500vw;
+   transition: all 1s ease-in-out;
+}
+
+
+
+.sliderItem{
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.slideBg{
+   width: 750px;
+   height: 750px;
+   border-radius: 50%;
+   position: absolute;
+}
+
+.sliderImg{
+   height: 700;
+   z-index: 1;
+}
+
+.sliderTitle{
+   position: absolute;
+   top: 10%;
+   right: 10%;
+   font-size: 60px;
+   font-weight: 900;
+   text-align: center;
+   z-index: 1;
+}
+
+.sliderPrice{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   font-size: 50px;
+   font-weight: 300;
+   text-align: center;
+   border: 1px solid gray;
+   z-index: 1;
+}
 
